@@ -1,4 +1,4 @@
--- Criação da tabela staging_faturamento_distribuidor
+-- Cria a tabela staging com os dados da tabela raw_faturamento
 CREATE OR REPLACE TABLE GB.staging_faturamento_distribuidor AS
 SELECT
     dt_fatura,
